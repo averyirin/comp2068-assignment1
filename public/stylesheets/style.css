@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -9,7 +8,248 @@ a {
 
 
 footer{
-  padding:10px;
+  padding:20px;
   text-align: center;
   background-color: #fcfcfc;
 }
+#nav{
+  margin-top:0;
+}
+.dark{
+  color: #9d9d9d;
+}
+fieldset
+{
+  border: 2px solid #ecf0f1;
+  border-radius: 6px;
+  padding: 30px 50px;
+}
+.form-group
+{
+  position: relative;
+  margin-bottom: 20px;
+}
+.guardsman
+{
+  color: #D90000 !important;
+}
+.container{
+  padding: 0px 0 60px 0;
+}
+.underlined-title
+{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.underlined-title h1
+{
+  color: #2c3e50;
+  margin: 0;
+}
+
+.underlined-title hr
+{
+  width: 10%;
+  border-width: 2px;
+  border-color: #16a085;
+}
+
+.services-wrapper .icon
+{
+  height: 175px;
+  width: 175px;
+  max-width: 100%;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto 50px;
+}
+
+.services-wrapper .icon span
+{
+  line-height: 175px;
+  color: #fff;
+  font-size: 55px;
+}
+.underlined-title h2
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #95a5a6;
+}
+.filter
+{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 60px 0;
+  text-align: center;
+  list-style: none;
+
+}
+.filter span{
+
+  position: relative;
+  padding-left: 22px;
+  padding-right:22px;
+}
+.filter li
+{
+  display: inline-block;
+  margin: 0;
+}
+
+.filter li a
+{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+}
+.gallery-item-wrapper
+{
+  padding-bottom: 25px;
+}
+
+.gallery-item
+{
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+}
+
+.gallery-item .gallery-thumb
+{
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item .gallery-thumb img
+{
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.gallery-item .gallery-thumb .image-overlay
+{
+  background-color: #2c3e50;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.gallery-item .gallery-thumb .gallery-zoom, .gallery-item .gallery-thumb .gallery-link {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background-color: #2c3e50;
+  display: none;
+  line-height: 45px;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  border-radius: 2px;
+}
+
+.gallery-item .gallery-thumb .gallery-zoom
+{
+  left: 0;
+  margin-left: -45px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.gallery-item .gallery-thumb .gallery-link
+{
+  right: 0;
+  margin-right: -45px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.gallery-item .gallery-details
+{
+  text-align: center;
+  padding-top: 20px;
+  background-color: #fff;
+  border: 2px solid #ecf0f1;
+  border-top: 0;
+  overflow: hidden;
+}
+
+.gallery-item .gallery-details h5
+{
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+  position: relative;
+}
+
+.gallery-item .gallery-details p
+{
+  font-size: .9em;
+}
+
+
+
+
+
+
+
+
+.bg-crete
+{
+  background-color: #7D8A2E !important;
+}
+
+
+.bg-sunflower
+{
+  background-color: #F1C40F !important;
+}
+
+.bg-finn
+{
+  background-color: #723147 !important;
+}
+
+
+.social{
+  padding-bottom: 5px;
+}
+.social .badge{
+  padding:10px;
+}
+.github{
+  background-color: #000;
+}
+.github:hover{
+  background-color: #AAA;
+}
+.linkedin{
+  background-color: #0077B5;
+}
+.linkedin:hover{
+  background-color: #AAA;
+}
+.fa-github{
+  color:#fff;
+
+}
+

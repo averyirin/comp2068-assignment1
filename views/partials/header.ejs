@@ -9,13 +9,14 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="./stylesheets/style.css">
 
 
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav id="nav"  class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -34,19 +35,19 @@
         <li<% if (title === 'Home') { %>
                 class="active"
                 <% } %> >
-          <a href="/" >Home</a></li>
+          <a href="/" ><i class="fa fa-home fa-lg"></i> Home</a></li>
         <li<% if (title === 'About Me') { %>
                 class="active"
-                <% } %> ><a href="/about">About</a></li>
+                <% } %> ><a href="/about"><i class="fa fa-info fa-lg"></i> About</a></li>
         <li<% if (title === 'My Projects') { %>
                 class="active"
-                <% } %> ><a href="/projects">Projects</a></li>
+                <% } %> ><a href="/projects"><i class="fa fa-th-large fa-lg"></i> Projects</a></li>
         <li<% if (title === 'My Services') { %>
                 class="active"
-                <% } %> ><a href="/services">Services</a></li>
+                <% } %> ><a href="/services"><i class="fa fa-thumbs-o-up fa-lg"></i> Services</a></li>
         <li<% if (title === 'Contact Me') { %>
                 class="active"
-                <% } %> ><a href="/contact">Contact Me</a></li>
+                <% } %> ><a href="/contact"><i class="fa fa-envelope-o fa-lg"></i> Contact Me</a></li>
       </ul>
 
 
