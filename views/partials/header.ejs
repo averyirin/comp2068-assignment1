@@ -32,9 +32,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li<% if (title === 'Home') { %>
+        <li
+                <% if (title === 'Home') { %>
                 class="active"
-                <% } %> >
+                <% } %>
+        >
           <a href="/" ><i class="fa fa-home fa-lg"></i> Home</a></li>
         <li<% if (title === 'About Me') { %>
                 class="active"
@@ -55,3 +57,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+
+<div class="home-bg">
+
+  <div class="container">
+
+    <div class="row home-content">

@@ -35,12 +35,21 @@ fieldset
   color: #D90000 !important;
 }
 .container{
-  padding: 0px 0 60px 0;
+  padding: 0px 0 20px 0;
 }
 .underlined-title
 {
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.home-cta .btn{
+  background-color: #16a085;
+  color: #fff;
+}
+.contact .btn{
+  padding: 10px 20px;
+  background-color: #16a085;
+  color: #fff;
 }
 .underlined-title h1
 {
@@ -232,7 +241,8 @@ fieldset
 
 
 .social{
-  padding-bottom: 5px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 .social .badge{
   padding:10px;
@@ -260,9 +270,39 @@ fieldset
   -o-background-size: cover;
   background-size: cover;
 }
+.certifications .badge{
+  background-color:navy;
+  padding: 5px 10px 5px 10px;
+}
 .home-content{
-  text-align: center;
-  padding:10px 20px 10px 20px;
+  padding:10px 30px 10px 30px;
   background-color:rgba(255, 255, 255, 0.95);
   margin-top: 10px;
+}
+.home-cta{
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align: center;
+}
+
+.home-content h1, .home-content h3{
+  text-align: center;
+}
+.inverse{
+  background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+}
+.inverse{
+  color: #9d9d9d;;
+  background-color: #222;
+  border-color: #080808;
+}
+.panel .panel-heading {
+  text-align: center;
 }
