@@ -262,8 +262,7 @@ fieldset
 }
 .home-content{
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color:rgba(255, 255, 255, 0.9);
+  padding:10px 20px 10px 20px;
+  background-color:rgba(255, 255, 255, 0.95);
   margin-top: 10px;
 }
