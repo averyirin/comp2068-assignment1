@@ -48,12 +48,12 @@ fieldset
   padding-top: 30px;
 }
 .home-cta .btn{
-  background-color: #16a085;
+  background-color: darkcyan;
   color: #fff;
 }
 .contact .btn{
   padding: 10px 20px;
-  background-color: #16a085;
+  background-color: darkcyan;
   color: #fff;
 }
 .underlined-title h1
@@ -66,7 +66,7 @@ fieldset
 {
   width: 10%;
   border-width: 2px;
-  border-color: #16a085;
+  border-color: darkcyan;
 }
 
 .services-wrapper .icon
@@ -274,7 +274,7 @@ fieldset
   background-size: cover;
 }
 .certifications .badge{
-  background-color:navy;
+  background-color:darkcyan;
   padding: 5px 10px 5px 10px;
 }
 .home-content{
@@ -307,4 +307,5 @@ fieldset
 }
 .panel .panel-heading {
   text-align: center;
+
 }
