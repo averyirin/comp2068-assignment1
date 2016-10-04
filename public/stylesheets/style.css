@@ -16,6 +16,11 @@ footer{
   margin-top:0;
   margin-bottom:0;
 }
+#nav{
+  font-size: 1.4em;
+}
+#nav li{
+}
 .dark{
   color: #9d9d9d;
 }
@@ -35,7 +40,7 @@ fieldset
   color: #D90000 !important;
 }
 .container{
-  padding: 0px 0 20px 0;
+  padding: 0px 0px 0px 0px;
 }
 .underlined-title
 {
@@ -264,10 +269,8 @@ fieldset
 
 }
 .home-bg{
-  background: url("/images/web-dev.jpg") center top no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: darkcyan;
+
   background-size: cover;
 }
 .certifications .badge{
@@ -277,7 +280,6 @@ fieldset
 .home-content{
   padding:10px 30px 10px 30px;
   background-color:rgba(255, 255, 255, 0.95);
-  margin-top: 10px;
 }
 .home-cta{
   padding-top:20px;
