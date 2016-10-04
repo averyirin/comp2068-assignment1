@@ -227,24 +227,30 @@ fieldset
 
 
 
+.services-wrapper .icon{
 
-.bg-crete
+  margin-bottom: 10px;
+}
+.bg-green
 {
   background-color: #7D8A2E !important;
+
 }
 
 
-.bg-sunflower
+.bg-yellow
 {
   background-color: #F1C40F !important;
 }
 
-.bg-finn
+.bg-purple
 {
   background-color: #723147 !important;
 }
 
-
+.services-wrapper{
+  text-align: center;
+}
 .social{
   text-align: center;
   padding-bottom: 10px;
